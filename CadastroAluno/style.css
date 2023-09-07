@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campoFormulario,
+.botao {
+    margin: 5px 0 10px 0;
+    border: 1.5px solid black;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.campoFormulario:nth-child(1) {
+    margin-top: 0px;
+}
+
+.botao {
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fieldsetForm {
+    border: 5px solid black;
+    padding: 30px 40px;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0;
+}
+
+.legendForm {
+    padding: 0 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.secaoSexo,
+.secaoNecessidades {
+    margin-bottom: 10px;
+}
+
+.etiquetaEspecial {
+    margin-bottom: 5px;
+}
+
+.botao:hover {
+    background-color: gainsboro;
+    font-weight: 500;
+}
+
+.campoNecessidades,
+.campoSexo {
+    font-weight: 300;
+}
