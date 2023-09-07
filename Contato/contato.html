@@ -21,7 +21,7 @@
 
                 <!--Adicionado pattern para Nome Completo-->
                 <input type="text" id="idNome" placeholder="Nome Completo" class="campoFormulario" required
-                    pattern="^(\w\w+)\s(\w+)$" title="Preencha seu nome completo">
+                    pattern="^(\w\w+)\s(\w+)$" title="Preencha seu Nome COMPLETO">
 
                 <input type="email" id="idEmail" placeholder="seu@email.com" class="campoFormulario" required>
 
@@ -40,8 +40,9 @@
                     <option value="audi">Outro</option>
                 </select>
 
+                <!--Adicionado minlength e maxlength para mensagem ficar entre 10 e 100 caracteres-->
                 <textarea id="idMensagem" placeholder="Mensagem" class="campoFormulario" required cols="30"
-                    rows="5"></textarea>
+                    minlength="10" maxlength="100" rows="5"></textarea>
 
                 <input type="submit" id="idBotao" class="botao" value="Enviar">
             </div>
