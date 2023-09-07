@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+}
+
+.botaoForm {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    align-self: start;
+    font-family: 'Roboto', sans-serif;
+}
+
+.campoFormulario {
+    border: 1.5px solid black;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 10px 5px;
+    font-size: 20px;
+}
+
+.etiqueta {
+    font-size: 20px;
+}
+
+.botaoForm:hover {
+    background-color: #898989;
+    cursor: pointer;
+    font-weight: bold;
+}
